@@ -1,0 +1,13 @@
+{
+  "required": true,
+  "package": "padej.soup.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "client": [
+    "ClientTickMixin",
+    "BackgroundRendererMixin",
+    "GameRendererMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

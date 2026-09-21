@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "id": "infinityvisuals",
+  "version": "${version}",
+  "name": "InfinityVisuals",
+  "description": "Animated client-side visuals and modern ClickGUI for Minecraft 1.21.4.",
+  "authors": ["InfinityVisuals"],
+  "environment": "client",
+  "entrypoints": {
+    "client": ["padej.soup.InfinityVisualsClient"]
+  },
+  "mixins": ["infinityvisuals.mixins.json"],
+  "depends": {
+    "fabricloader": ">=0.19.5",
+    "minecraft": "~1.21.4",
+    "fabric-api": "*"
+  }
+}
